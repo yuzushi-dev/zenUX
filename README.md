@@ -7,10 +7,10 @@ Welcome to the ZenUX project! This application is designed to help you search an
 ### Homepage
 ![Homepage](assets/screenshots/homepage.png)
 
-### Search Results (Sanitized)
+### Search Results
 ![Search Results](assets/screenshots/search_results.png)
 
-### Ticket Detail (Sanitized)
+### Ticket Detail
 ![Ticket Detail](assets/screenshots/ticket_detail.png)
 
 ## Getting Started (macOS)
