@@ -2,6 +2,17 @@
 
 Welcome to the ZenUX project! This application is designed to help you search and manage tickets effortlessly.
 
+## Screenshots
+
+### Homepage
+![Homepage](assets/screenshots/homepage.png)
+
+### Search Results (Sanitized)
+![Search Results](assets/screenshots/search_results.png)
+
+### Ticket Detail (Sanitized)
+![Ticket Detail](assets/screenshots/ticket_detail.png)
+
 ## Getting Started (macOS)
 
 To run this project on your Mac, you'll need to follow these simple steps.
