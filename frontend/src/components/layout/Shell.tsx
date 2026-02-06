@@ -16,7 +16,7 @@ export function Shell({ children, recentSearches, onClearRecent, onSelectRecent 
                 <div className="p-6 border-b">
                     <h1 className="text-2xl font-bold tracking-tight flex items-center gap-2">
                         <Archive className="h-6 w-6 text-primary" />
-                        <span>ZenUX</span>
+                        <span>ZenuX</span>
                     </h1>
                     <p className="text-xs text-muted-foreground mt-1 font-mono">TICKET SEARCH SYSTEM</p>
                 </div>

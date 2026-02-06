@@ -249,7 +249,7 @@ export default function HomePage({ onSearch, externalQuery }: HomePageProps) {
                 {/* Initial Empty State */}
                 {!query && results.length === 0 && (
                     <div className="text-center py-32 opacity-40 select-none">
-                        <div className="text-6xl mb-6 font-serif italic text-muted-foreground">ZenUX</div>
+                        <div className="text-6xl mb-6 font-serif italic text-muted-foreground">ZenuX</div>
                         <p className="font-mono text-xs uppercase tracking-[0.2em]">Ticket Search System</p>
                     </div>
                 )}

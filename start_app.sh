@@ -6,7 +6,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Navigate to the project directory
 cd "$SCRIPT_DIR"
 
-echo "Starting ZenUX Application..."
+echo "Starting ZenuX Application..."
 echo "--------------------------------"
 
 # Check if docker is running

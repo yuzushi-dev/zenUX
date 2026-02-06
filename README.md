@@ -1,6 +1,6 @@
-# ZenUX Application
+# ZenuX Application
 
-Welcome to the ZenUX project! This application is designed to help you search and manage tickets effortlessly.
+Welcome to the ZenuX project! This application is designed to help you search and manage tickets effortlessly.
 
 ## Screenshots
 

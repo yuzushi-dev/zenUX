@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings
 from typing import Optional
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "ZenUX"
+    PROJECT_NAME: str = "ZenuX"
     API_V1_STR: str = "/api/v1"
     
     # Zendesk Config
