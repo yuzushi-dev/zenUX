@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .bg { fill: #2C2624; }
+      .accent { fill: #DAA50B; }
+    </style>
+  </defs>
+  
+  <!-- Main Box/Container -->
+  <rect x="4" y="12" width="56" height="44" rx="4" class="bg" />
+  
+  <!-- Handle/Top Tab -->
+  <path d="M22 6 h20 a4 4 0 0 1 4 4 v2 h-28 v-2 a4 4 0 0 1 4 -4 z" class="bg" />
+  
+  <!-- Folded Corner Effect -->
+  <path d="M4 12 h56 v12 l-28 8 l-28 -8 z" fill="#DAA50B" opacity="0.9" />
+  
+  <!-- Letter Z -->
+  <path d="M22 44 h20 l-20 -16 h20" stroke="#FDFBF7" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

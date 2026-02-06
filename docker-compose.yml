@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: ticket_search_backend
+    ports:
+      - "8085:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./backend:/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: ticket_search_frontend
+    ports:
+      - "5174:3000"
+    volumes:
+      - ./frontend:/app
+      # - /app/node_modules # Removed to sync with host for debugging
+    environment:
+      - VITE_API_URL=http://localhost:8085
+    depends_on:
+      - backend
+    restart: unless-stopped

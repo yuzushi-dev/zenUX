@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Paper Theme - Cream/Beige Background */
+    --background: 40 50% 98%;
+    /* #FDFBF7 */
+    --foreground: 20 14% 15%;
+    /* #2C2624 - Warm Dark Grey/Brown */
+
+    /* Card - Slightly Diff Paper */
+    --card: 40 30% 95%;
+    --card-foreground: 20 14% 15%;
+
+    /* Popover */
+    --popover: 40 50% 98%;
+    --popover-foreground: 20 14% 15%;
+
+    /* Primary - Mustard/Gold */
+    --primary: 45 90% 45%;
+    /* #DAA50B */
+    --primary-foreground: 40 50% 98%;
+
+    /* Secondary - Olive/Sage */
+    --secondary: 80 40% 40%;
+    /* #556B2F */
+    --secondary-foreground: 40 50% 98%;
+
+    /* Muted */
+    --muted: 40 20% 90%;
+    --muted-foreground: 20 10% 40%;
+
+    /* Accent */
+    --accent: 40 30% 90%;
+    --accent-foreground: 20 14% 15%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Borders */
+    --border: 30 15% 85%;
+    --input: 30 15% 85%;
+    --ring: 45 90% 45%;
+
+    --radius: 0.3rem;
+    /* Small radius for crisp look */
+  }
+
+  .dark {
+    /* Inverse Paper - Dark Slate/Sepia */
+    --background: 20 14% 10%;
+    --foreground: 40 30% 90%;
+
+    --card: 20 14% 12%;
+    --card-foreground: 40 30% 90%;
+
+    --popover: 20 14% 10%;
+    --popover-foreground: 40 30% 90%;
+
+    --primary: 45 90% 50%;
+    --primary-foreground: 20 14% 10%;
+
+    --secondary: 80 40% 45%;
+    --secondary-foreground: 20 14% 10%;
+
+    --muted: 20 14% 20%;
+    --muted-foreground: 40 20% 60%;
+
+    --accent: 20 14% 20%;
+    --accent-foreground: 40 30% 90%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 40 30% 90%;
+
+    --border: 20 14% 20%;
+    --input: 20 14% 20%;
+    --ring: 45 90% 50%;
+  }
+}
+
+@layer base {
+  :root {
+    /* Fonts */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+
+    /* Paper Grain Texture */
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}

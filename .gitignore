@@ -1,0 +1,9 @@
+.env
+tickets_*.csv
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+node_modules/
+dist/
+*.log
