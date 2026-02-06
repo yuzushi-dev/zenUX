@@ -1,8 +1,8 @@
-# 🎨 ZenUX Application
+# ZenUX Application
 
 Welcome to the ZenUX project! This application is designed to help you search and manage tickets effortlessly.
 
-## 🚀 Getting Started (macOS)
+## Getting Started (macOS)
 
 To run this project on your Mac, you'll need to follow these simple steps.
 
@@ -39,7 +39,7 @@ When you're done, double-click `stop_app.sh` or run:
 
 ---
 
-## 🛠 Project Structure
+## Project Structure
 - `frontend/`: All the user interface code.
 - `backend/`: The logic and API connections.
 - `.env`: Your configuration and credentials.
