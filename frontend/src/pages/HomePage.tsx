@@ -125,11 +125,6 @@ export default function HomePage({ onSearch, externalQuery }: HomePageProps) {
                         SEARCH ARCHIVE // ZENDESK_DB
                     </p>
                 </div>
-                {/* Status Indicator */}
-                <div className="hidden md:flex items-center gap-2 px-3 py-1 bg-muted/50 rounded-full border border-border">
-                    <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                    <span className="text-xs font-mono text-muted-foreground">SYSTEM ONLINE</span>
-                </div>
             </div>
 
             {error && (
